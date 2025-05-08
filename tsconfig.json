@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Modern JS features
+    "module": "CommonJS", // Compatible with Node.js and ts-node-dev
+    "moduleResolution": "node",
+    "esModuleInterop": true, // Allow `import fs from 'fs'` style
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Enable all strict type checks
+    "skipLibCheck": true, // Speeds up compilation
+    "resolveJsonModule": true, // Allows importing .json files
+    "outDir": "./dist" // If you want to compile later
+  },
+  "include": ["*.ts"], // Include .ts files in the current directory
+  "exclude": ["node_modules", "dist"] // Exclude build output and dependencies
+}
