@@ -72,7 +72,7 @@ Remember: Type inference is just TypeScript being our helpful buddy, trying to m
 
 Understanding enums and type inference has made my TypeScript journey much smoother. Enums helped me write clearer, more reliable code by replacing magic values with meaningful names. Meanwhile, type inference reduced the need for repetitive type declarations and made my code feel smarter and cleaner.
 
-### Sources
+### 🔹 Sources
 
 I learned about **Enums** and **Type Inference** in TypeScript from the following resources:
 
